@@ -8,6 +8,7 @@
         body {
             background-color: #A00057; /* Change this color to any you like */
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
@@ -18,13 +19,17 @@
         h1, p {
             text-align: center;
         }
+        .centered-gif {
+            display: block;
+            margin: 20px auto 0 auto; /* Center align the GIF and add margin-top */
+        }
     </style>
 </head>
 <body>
     <div>
         <h1>You made it!</h1>
         <p>Hope you enjoyed my silly little game! Thanks for being a fabulous team to work with - going to miss seeing your faces every day. Now go forth and be amazing.</p>
-        <img src="giphy.gif" alt="Shall I come back and make this an annual thing?">
+        <img src="giphy.gif" alt="Shall I come back and make this an annual thing?" class="centered-gif">
     </div>
 </body>
 </html>
